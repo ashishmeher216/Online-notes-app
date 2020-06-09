@@ -1,0 +1,20 @@
+SSL: Secured Socket Layer (Standard Security Technology)
+It is used to establish an encrypted link from browser to your server. Once you have that link, all the data passed between the browser and server is gonna stay private.
+Purchase SSL certificate for the security of the data from browser to your server.It will stay private.
+You cannot use SSL for a subdomain. So, purchase it when you are woking on a real website where users' data must be secured.
+
+
+1. name attribute in html is refereed from php     (_POST, _GET etc)
+
+2. isset($_POST["username"]) functions returns a positive value even if "username" field is left blank.
+So, we can use the function empty($_POST["username"]) .     video Signup Code(3)  of complete web develoment course
+
+
+3.  ISSET checks the variable to see if it has been set. In other words, it checks to see if the variable is any value except NULL 
+or not assigned a value. ISSET returns TRUE if the variable exists and has a value other than NULL. That means variables 
+assigned a "", 0, "0", or FALSE are set, and therefore are TRUE for ISSET.
+
+EMPTY checks to see if a variable is empty. Empty is interpreted as: "" (an empty string), 0 (integer), 0.0 (float)`, "0" (string), 
+NULL, FALSE, array() (an empty array), and "$var;" (a variable declared, but without a value in a class.
+
+4. mysqli_real_escape_string(connection_valiable example $link ,   string to escape the escape characters);
